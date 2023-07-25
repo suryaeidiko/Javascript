@@ -1,0 +1,18 @@
+*{
+    background-color: aqua;
+    text-align: center;
+    margin: 15px;
+}
+.Heads{
+    background-color: orange;
+    font-size: large;
+    cursor: pointer;
+}
+.Tails{
+    background-color: orange;
+    font-size: large;
+    cursor: pointer;
+}
+.Print{
+    background-color: darkgrey;
+}
