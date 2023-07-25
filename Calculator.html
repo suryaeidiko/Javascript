@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="Calculator.css"/>
+</head>
+<body>
+<div class = "calculator">
+<input type = "text" placeholder = "0" name = "display">
+<div>
+<button onclick = "display.value += '1'">1</button>
+<button onclick = "display.value += '2'">2</button>
+<button onclick = "display.value += '3'">3</button>
+<button class = "operator" onclick = "display.value += '+'">+</button>
+</div>
+<div>
+<button onclick = "display.value += '4'">4</button>
+<button onclick = "display.value += '5'">5</button>
+<button onclick = "display.value += '6'">6</button>
+<button class = "operator" onclick = "display.value += '-'">-</button>
+</div>
+<div>
+<button onclick = "display.value += '7'">7</button>
+<button onclick = "display.value += '8'">8</button>
+<button onclick = "display.value += '9'">9</button>
+<button class = "operator" onclick = "display.value += '*'">*</button>
+</div>
+<div>
+<button onclick = "display.value += '0'">0</button>
+<button onclick = "display.value += '00'">00</button>
+<button onclick = "display.value += '.'">.</button>
+<button class = "operator" onclick = "display.value += '/'">/</button>
+</div>
+<div>
+<button class = "operator" onclick = "display.value = '0'">AC</button>
+<button class = "operator" onclick = "display.value = display.value.toString().slice(0,-1)">DEL</button>
+<button class = "operator">%</button>
+<button class = "equalBtn" onclick = "display.value = eval(display.value)">=</button>
+</div>
+</body>
+</html>
